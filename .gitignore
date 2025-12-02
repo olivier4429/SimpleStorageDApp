@@ -1,10 +1,11 @@
-# Remix compiler artifacts
+# Remix
 **/artifacts/
 **/artifacts/**
-
-# Remix plugin state folders
 deps/
 states/
+/build
+/.cache
+
 
 # Debug info
 *.dbg.json
@@ -12,4 +13,26 @@ states/
 
 # Optional
 .env
+.env.*
 .env.local
+
+# NPM
+/node_modules
+/package-lock.json
+
+# Hardhat
+/artifacts
+/cache
+/coverage
+/coverage.json
+/typechain
+
+
+# Logs and IDE
+*.log
+.DS_Store
+.vscode/
+
+# Temp files 
+npm-debug.log*
+yarn-error.log*
